@@ -1,14 +1,11 @@
 Lab 05 - Nobel laureates
 ================
 
-Team Name:
+Team Name: G5
 
 Team Members - Name and Student ID
 
-1.  
-2.  
-3.  
-4.  
+1.  dalal salman \\2201003144
 
 ## Packages
 
