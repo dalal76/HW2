@@ -137,7 +137,7 @@ your Git pane is cleared up afterwards.d*
         in the US or not.
 
 ``` r
-nobel_living_science <- nobel_living_science %>% mutate( born_country_us = if_else(born_country == "USA", "USA", "Other"))
+ nobel_living_science <- nobel_living_science %>% mutate( born_country_us = if_else(born_country == "USA", "USA", "Other"))
 nobel_living_science %>%ggplot(aes(x = country_us,y=born_country_us, fill = category)) + geom_bar(stat = "identity", position = "dodge", orientation="horizontal")
 ```
 
