@@ -115,7 +115,7 @@ nobel_living_science %>%
 
 4.  Create a new variable called `born_country_us` that has the value
     `"USA"` if the laureate is born in the US, and `"Other"` otherwise.
-    How many of the winners are born in the US? (105)
+    How many of the winners are born in the US? {105}
 
 Knit, *commit, and push your changes to GitHub with an appropriate
 commit message. Make sure to commit and push all changed files so that
