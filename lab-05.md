@@ -154,10 +154,10 @@ your Git pane is cleared up afterwards.*
     order of number of observations for each country. Which country is
     the most common?
 
-Germany And United Kingdom
+Germany and United Kingdom
 
 ``` r
- nobel_living_science %>% filter(born_country_us=="Other",country_us=="USA")%>%count(born_country) %>% arrange(desc(n))
+nobel_living_science %>% filter(born_country_us=="Other",country_us=="USA")%>%count(born_country) %>% arrange(desc(n))
 ```
 
     ## # A tibble: 21 x 2
