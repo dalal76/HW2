@@ -122,7 +122,10 @@ your Git pane is cleared up afterwards.d*
 5.  Add a second variable to your visualization from Exercise 3 based on
     whether the laureate was born in the US or not. Based on your
     visualization, do the data appear to support Buzzfeed’s claim?
-    Explain your reasoning in 1-2 sentences.
+    Explain your reasoning in 1-2 sentences. yes , because in buzzfeed
+    we analyzing the data to search for more understanding the data and
+    get information form it we go deep and deep and make a lot of
+    filtrations to understanding the data
 
     -   Your final visualization should contain a facet for each
         category.
