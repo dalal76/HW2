@@ -122,7 +122,7 @@ your Git pane is cleared up afterwards.d*
 5.  Add a second variable to your visualization from Exercise 3 based on
     whether the laureate was born in the US or not. Based on your
     visualization, do the data appear to support Buzzfeed’s claim?
-    Explain your reasoning in 1-2 sentences. yes , because in buzzfeed
+    Explain your reasoning in 1-2 sentences. -yes , because in buzzfeed
     we analyzing the data to search for more understanding the data and
     get information form it we go deep and deep and make a lot of
     filtrations to understanding the data
@@ -136,7 +136,7 @@ your Git pane is cleared up afterwards.d*
 
 ``` r
 nobel_living_science <- nobel_living_science %>% mutate( born_country_us = if_else(born_country == "USA", "USA", "Other"))
- nobel_living_science %>%ggplot(aes(x = country_us,y=born_country_us, fill = category)) + geom_bar(stat = "identity", position = "dodge", orientation="horizontal")
+nobel_living_science %>%ggplot(aes(x = country_us,y=born_country_us, fill = category)) + geom_bar(stat = "identity", position = "dodge", orientation="horizontal")
 ```
 
 ![](lab-05_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
